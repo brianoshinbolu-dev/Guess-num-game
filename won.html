@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WON</title>
+	<!--Stylesheet-->
+	<link rel="stylesheet" href="wonstyle.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Yipple You Win!</h1>
+        <h2>You just WON 5000 naira</h2>
+        <form onSubmit="WriteToFile(this)">  
+		<input type="text" name="Name" placeholder="Your Name" id="Name" size="20"> 
+		<br>
+		<input type="text" name="whatsapp" placeholder="Whatsapp No" id="Whatsapp" size="20"> 
+		<br>
+		</form> <br> 
+		<button onclick="tryagain()" id="my_btn">Play Again</button>
+	</div>
+
+	<!--Script-->
+	<script src="wonscript.js"></script>
+</body>
+</html>
